@@ -1,7 +1,9 @@
 package pl.coderslab;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -30,6 +32,18 @@ public BookController(BookService bookService){
     @PostMapping("")
     public void addBook(@RequestBody Book book){
     bookService.add(book);
+    }
+    @GetMapping("/{id}")
+    public Book getBook(@PathVariable Long id) {
+        return this.bookService.get(id).orElseThrow(() -> {
+            throw new ResponseStatusException(
+                    HttpStatus.NOT_FOUND, "entity not found"
+            );
+        });
+    }
+    @DeleteMapping("/{id}")
+    public void removeBook(@PathVariable Long id) {
+        bookService.delete(id);
     }
 
 }
