@@ -1,15 +1,19 @@
 package pl.coderslab;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/books")
-public class BookController {
+public class BookController{
+@Autowired
+private BookService bookService;
 
-
+public BookController(BookService bookService){
+    this.bookService = bookService;
+}
 
     @RequestMapping("/helloBook")
     public Book helloBook() {
@@ -17,10 +21,16 @@ public class BookController {
                 "Bruce Eckel", "Helion", "programming");
     }
 
-    @RequestMapping("/")
-    public List<Book> mockBook(){
-        MemoryBookService memoryBookService = new MemoryBookService();
-        return memoryBookService.MockBookService();
+    @GetMapping("")
+    public @ResponseBody
+    List<Book> getList() {
+        return bookService.getBooks();
     }
+
+    @PostMapping("")
+    public void addBook(@RequestBody Book book){
+    bookService.add(book);
+    }
+
 }
 
