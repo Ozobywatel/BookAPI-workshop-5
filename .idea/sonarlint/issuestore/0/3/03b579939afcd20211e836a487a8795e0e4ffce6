@@ -1,23 +1,23 @@
 
 W
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ë•ñï8¼¡¹¨û.
-d
-java:S1192"GDefine a constant instead of duplicating this literal "Helion" 3 times.(ë•ñï8¼¡¹¨û.
-W
-java:S2479":Remove the non-escaped \u0009 character from this literal.(‹Ä³Ç8¼¡¹¨û.
-W
-java:S2479":Remove the non-escaped \u0009 character from this literal.(‹Ä³Ç8¼¡¹¨û.
-T
-java:S36555"7Call "Optional#isPresent()" before accessing the value.(ª­Òß8ÆÅèµû.
-i
-java:S1192"LDefine a constant instead of duplicating this literal "programming" 3 times.(ë•ñï8¼¡¹¨û.
-W
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ë•ñï8¼¡¹¨û.
-X
-java:S2696#"6Make the enclosing method "static" or remove this set.(òŸÎçøÿÿÿÿ8‰æ›µû.
-W
-java:S2479":Remove the non-escaped \u0009 character from this literal.(ýÁ¹í8¼¡¹¨û.
-W
 java:S2479":Remove the non-escaped \u0009 character from this literal.(ýÁ¹í8¼¡¹¨û.
 Y
 java:S3655."7Call "Optional#isPresent()" before accessing the value.(½Ò£âûÿÿÿÿ8‰šÓµû.
+d
+java:S1192"GDefine a constant instead of duplicating this literal "Helion" 3 times.(ë•ñï8¼¡¹¨û.
+X
+java:S2696#"6Make the enclosing method "static" or remove this set.(òŸÎçøÿÿÿÿ8‰æ›µû.
+T
+java:S36555"7Call "Optional#isPresent()" before accessing the value.(ª­Òß8ÆÅèµû.
+W
+java:S2479":Remove the non-escaped \u0009 character from this literal.(‹Ä³Ç8¼¡¹¨û.
+i
+java:S1192"LDefine a constant instead of duplicating this literal "programming" 3 times.(ë•ñï8¼¡¹¨û.
+W
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ýÁ¹í8¼¡¹¨û.
+W
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ë•ñï8¼¡¹¨û.
+W
+java:S2479":Remove the non-escaped \u0009 character from this literal.(‹Ä³Ç8¼¡¹¨û.
+W
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ë•ñï8¼¡¹¨û.
