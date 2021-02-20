@@ -21,3 +21,5 @@ _
 +src/main/resources/META-INF/persistence.xml,3/b/3be4f79b5828b3982f3f6a62bf8fc67b3adedf58
 ]
 -src/main/java/pl/coderslab/WebController.java,9/0/909a045b1725793d120b1a7599b991949d6da57a
+d
+4src/main/java/pl/coderslab/ManageBookController.java,c/8/c8488bd06e706b14b843d2537abe652a2c3ef071

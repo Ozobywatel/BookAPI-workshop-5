@@ -1,5 +1,5 @@
 
-^
-java:S1128"<Remove this unused import 'javax.transaction.Transactional'.(ûÒçÑúÿÿÿÿ8™Æ½Şû.
 b
 java:S4684""@Replace this persistent entity with a simple POJO or DTO object.(ú¡Ó«ıÿÿÿÿ8™Æ½Şû.
+^
+java:S1128"<Remove this unused import 'javax.transaction.Transactional'.(ûÒçÑúÿÿÿÿ8™Æ½Şû.
